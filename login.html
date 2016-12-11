@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/foundation.js" defer></script>
+    <script src="/assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-shadow"></div>
+      <div class="bottom-shadow"></div>
+      <div class="login-wrap">
+        <div class="login-box">
+          <h2 class="separator">Авторизуйтесь</h2>
+          <form class="login-form" name="login-form" method="post">
+            <label for="login"><i class="fa fa-user"></i></label>
+            <input id="login" type="text" placeholder="Логин">
+            <label for="password"><i class="fa fa-key"></i></label>
+            <input id="password" type="password" placeholder="Пароль">
+            <input type="checkbox" id="arentrobot">
+            <label for="arentrobot">Я человек</label><span>Вы точно не робот?</span>
+            <input id="yes" type="radio" name="robot_security" value="Yes">
+            <label class="login-radio" for="yes">Да</label>
+            <input id="no" type="radio" name="robot_security" value="No">
+            <label class="login-radio" for="no">Не уверен</label>
+          </form>
+        </div>
+        <div class="login-form-buttons">
+          <button class="login-form-button">На главную</button>
+          <button class="login-form-button">Войти</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

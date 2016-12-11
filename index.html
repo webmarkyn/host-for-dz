@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Обо мне</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/foundation.js" defer></script>
+    <script src="/assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-shadow"></div>
+      <div class="bottom-shadow"></div>
+      <button class="authorization-button" id="authorize">Авторизоваться</button>
+      <div class="welcome-wrap" id="flipWrap">
+        <div class="welcome-inner">
+          <div class="welcome-box front">
+            <div class="personal-info personal-info-custom">
+              <div class="personal-info__avatar"><img class="personal-info__avatar__img" src="/assets/img/avatars/avatar_mark.png" alt="avatar"></div>
+              <div class="personal-info__about">
+                <h2 class="personal-info__about__name">Марк Байдебура</h2>
+                <h3 class="personal-info__about__desc">Личный сайт веб-разработчика</h3>
+              </div>
+            </div>
+            <div class="social-icons"><a class="icon-holder icon-link" href="">
+                <svg class="social-icons_sprite custom-icon" viewBox="0 0 35 35">
+                  <use class="social-icons_sprite__item" xlink:href="assets/img/sprite.svg#vk"></use>
+                </svg></a><a class="icon-holder icon-link" href="">
+                <svg class="social-icons_sprite custom-icon" viewBox="0 0 35 35">
+                  <use class="social-icons_sprite__item" xlink:href="assets/img/sprite.svg#github"></use>
+                </svg></a><a class="icon-holder icon-link" href="">
+                <svg class="social-icons_sprite custom-icon" viewBox="0 0 35 35">
+                  <use class="social-icons_sprite__item" xlink:href="assets/img/sprite.svg#in"></use>
+                </svg></a>
+            </div>
+            <div class="welcome-buttons">
+              <button class="welcome-button"><a href="/works.html">Мои работы</a></button>
+              <button class="welcome-button"><a href="/about.html">Обо мне</a></button>
+              <button class="welcome-button"><a href="/blog.html">Блог</a></button>
+            </div>
+          </div>
+          <div class="login-box back">
+            <h2 class="separator">Авторизуйтесь</h2>
+            <form class="login-form" name="login-form" method="post">
+              <label for="login"><i class="fa fa-user"></i></label>
+              <input id="login" type="text" placeholder="Логин">
+              <label for="password"><i class="fa fa-key"></i></label>
+              <input id="password" type="password" placeholder="Пароль">
+              <input type="checkbox" id="arentrobot">
+              <label for="arentrobot">Я человек<span>Вы точно не робот?</span></label>
+              <input id="yes" type="radio" name="robot_security" value="Yes">
+              <label class="login-radio" for="yes">Да</label>
+              <input id="no" type="radio" name="robot_security" value="No">
+              <label class="login-radio" for="no">Не уверен</label>
+              <div class="login-form-buttons">
+                <button class="login-form-button" id="backToMain">На главную</button>
+                <button class="login-form-button">Войти</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© Марк Байдебура | создано с любовью в LoftSchool | 2016</div>
+    </div>
+  </body>
+</html>
